@@ -6,10 +6,9 @@ from rest_framework import permissions
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Payments System API",
+        title="Payments System — Django Interview",
         default_version="v1",
-        description="API for processing bank webhooks and retrieving organization balances",
-        terms_of_service="https://www.example.com/terms/",
+        description="Тестовое задание для Backend Django Developer",
         license=openapi.License(name="MIT License"),
     ),
     public=True,
